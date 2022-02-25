@@ -102,8 +102,8 @@ w= ${w}
 respuesta z!=w ${respuesta4}
 a= ${a}
 b= ${b}
-mayor a>b =${mayor}
+mayor  a>b =${mayor}
 c= ${c}
 d= ${d}
-mayor c<d =${mayor}`, myStyle);
+menor c<d =${menor}`, myStyle);
 console.groupEnd();
