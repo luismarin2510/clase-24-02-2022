@@ -21,6 +21,7 @@ let resultado = 5+1*8+(9*(5+8)/2);
 // 5+8+58.5;
 // 71.5
 
+///////////////*igualdad  *//////////////////////
 let x = 5*(2*2)-(6/2);
 // 5*(4)-(3);
 // 5*4-3
@@ -38,8 +39,8 @@ let respuesta3 = x==y;
 // 17=| 8
 // false 
 
-
-let z = 5*2;
+////////////////* diferente *///////////////////////
+let z =5*2;
 // 10;
 
 let w = (5/5-(3+9) -(5%3)*2);
@@ -49,8 +50,24 @@ let w = (5/5-(3+9) -(5%3)*2);
 // (-11-4);
 // -15
 
-let respuesta4 = z=!w;
+let respuesta4 = z!=w;
+/////////////////////* mayor que  *///////////////////
 
+let a = 5*(15-(8-1)/9-(5+9*9)%5)
+// 5*(15-(7)/9-(86)%5));
+// 5*(15-7/9-(86%5));
+// 5*(15-0,7777-1);
+// 5*(13,2223)
+// 66,111
+
+
+let b = (5-2*3)+2*(5-1)+2;
+// (5-6)+2*(4)+2;
+// -1+2*4+2;
+// -1+8+2;
+// 9;
+
+let mayor= a>b;
 
 console.log(`%crespuesta 1= ${resultados}
 respuesta 2= ${resultado}
@@ -59,5 +76,8 @@ y= ${y}
 respuesta x==y ${respuesta3}
 z= ${z}
 w= ${w}
-respuesta z=!w ${respuesta4}`, myStyle);
+respuesta z!=w ${respuesta4}
+a= ${a}
+b= ${b}
+mayor a>b =${mayor}`, myStyle);
 console.groupEnd();
